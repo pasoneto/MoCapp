@@ -1,0 +1,41 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "clean-android": "cd android && rm -R .gradle && cd app && rm -R build",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "dataframe-js": "^1.4.4",
+    "expo": "~44.0.2",
+    "expo-av": "~10.2.0",
+    "expo-file-system": "~13.1.2",
+    "expo-media-library": "~14.0.0",
+    "expo-sensors": "~11.1.0",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-fs": "^2.18.0",
+    "react-native-image-slider-box": "^1.1.14",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-sensors": "^7.3.3",
+    "react-native-sound": "^0.11.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-track-player": "^2.1.2",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
